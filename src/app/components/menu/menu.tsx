@@ -59,7 +59,7 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Menu() {
   return (
-    <div className="fixed top-0 w-full py-2 bg-amber-200/70 z-50 backdrop-blur-md opacity-90 shadow-md shadow-gray-500/50">
+    <div className="fixed top-0 w-full py-2  z-50 backdrop-blur-md opacity-90 shadow-sm shadow-gray-500/50">
         <NavigationMenu className="container px-60">
           <Image className="mr-5" src={LogoPreta} width={100} height={100} alt="sim"/>
           <NavigationMenuList>
