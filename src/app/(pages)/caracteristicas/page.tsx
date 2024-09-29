@@ -1,5 +1,5 @@
-import { ArticleTitle } from "../components/article/article_title"
-import PageLayout from "../components/layout/PageLayout"
+import { ArticleTitle } from "@/app/components/article/article_title"
+import PageLayout from "@/app/components/layout/PageLayout"
 
 const page = () => {
     return (
